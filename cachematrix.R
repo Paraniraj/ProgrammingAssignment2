@@ -43,23 +43,3 @@ cacheSolve <- function(x, ...)
 	m
 		
 }
-
-## Sample Execution output 
-
-## myMatrix<-matrix(c(1,2,3,4),2,2)
-## myCacheMatrix<-makeCacheMatrix(myMatrix)
-## myCacheMatrix$get()
-##      [,1] [,2]
-## [1,]    1    3
-## [2,]    2    4
-## myCacheMatrix$getInverse()
-## NULL
-## cacheSolve(myCacheMatrix)
-##      [,1] [,2]
-## [1,]   -2  1.5
-## [2,]    1 -0.5
-## cacheSolve(myCacheMatrix)
-## Getting Cached Data
-##      [,1] [,2]
-## [1,]   -2  1.5
-## [2,]    1 -0.5
